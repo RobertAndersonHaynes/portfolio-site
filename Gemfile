@@ -62,3 +62,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 group :test do
   gem 'coveralls', require: false
 end
+
+gem 'pry-rails', group: %i[development test]
+gem 'rspec-rails', group: %i[development test]
